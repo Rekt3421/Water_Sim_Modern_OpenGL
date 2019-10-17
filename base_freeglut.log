@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(22,19): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(23,19): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(24,19): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(234,23): warning C4267: '=': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(309,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(326,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(371,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(374,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(378,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(381,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(385,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\main.cpp(388,15): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  base_freeglut.vcxproj -> C:\Users\17657\Desktop\base_freeglut (1)\base_freeglut\x64\Debug\base_freeglut.exe
