@@ -37,15 +37,15 @@ void main() {
 	float phase = 0.5;
 
 	wave1.x = (Qa*Amp*dir.x*cos(dot(w*dir,pos)+phase*time));
-	wave1.y = (Qa*Amp*dir.y*cos(dot(w*dir,pos)+phase*time));
+	wave1.y = -(Qa*Amp*dir.y*cos(dot(w*dir,pos)+phase*time));
 	wave1.z = Amp*sin(dot(w*dir,pos)+phase*time);
 	
 	wave2.x = (Qb*Amp2*dir.x*cos(dot(w*dir,pos)+phase*time));
-	wave2.y = (Qb*Amp2*dir.y*cos(dot(w*dir,pos)+phase*time));
+	wave2.y = -(Qb*Amp2*dir.y*cos(dot(w*dir,pos)+phase*time));
 	wave2.z = Amp2*sin(dot(w*dir,pos)+phase*time);
 	
 	wave3.x = (Qc*Amp3*dir.x*cos(dot(w*dir,pos)+phase*time));
-	wave3.y = (Qc*Amp3*dir.y*cos(dot(w*dir,pos)+phase*time));
+	wave3.y = -(Qc*Amp3*dir.y*cos(dot(w*dir,pos)+phase*time));
 	wave3.z = Amp3*sin(dot(w*dir,pos)+phase*time);
 	wave = wave1 + wave2 + wave3;
 	
