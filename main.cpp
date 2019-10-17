@@ -272,29 +272,12 @@ void display() {
 		xform = proj * view * rot;
 		// Get ready to draw
 		
-		if (!mesh) mesh = new Mesh("models/Rock_6.obj");
-
-		// Scale and center mesh using bounding box
-		pair<vec3, vec3> meshBB = mesh->boundingBox();
-		mat4 fixBB = scale(mat4(1.0f), vec3(1.0f / length(meshBB.second - meshBB.first)));
-		fixBB = glm::translate(fixBB, -(meshBB.first + meshBB.second) / 2.0f);
-		// Concatenate all transformations and upload to shader
-		xform = xform * fixBB;
-		int temp = mesh->vcount;
-		
-		glUniformMatrix4fv(uniXform, 1, GL_FALSE, value_ptr(xform));
-		int tex_loc = glGetUniformLocation(shader, "diffuse_tex");
-		glUniform1i(tex_loc, 1);
-
-		// Draw the mesh
-		//mesh->draw();
-		
 		
 		
 		glUseProgram(shader);
 
 
-		 tex_loc = glGetUniformLocation(shader, "diffuse_tex");
+int		 tex_loc = glGetUniformLocation(shader, "diffuse_tex");
 		//glActiveTexture(GL_TEXTURE0);
 		int tex_toggle = 0;
 		if (tex_loc != -1)
