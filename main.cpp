@@ -97,7 +97,7 @@ void initState() {
 	vcount = 0;
 	mesh = NULL;
 
-	camCoords = vec3(0.0, 0.0, 1.0);
+	camCoords = vec3(5.0, 50.0, 5.0);
 	camRot = false;
 	
 }
